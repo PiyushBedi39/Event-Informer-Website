@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block body %}
+
+    <form action="" method="post">
+        <div class="form-group">
+            <label for="Fullname" class="form-label" >Name</label>
+            <input name ="fullname" type="text" class="form-control" id="InputFullName"  placeholder="Full Name" required>
+        </div>
+        <div class="form-group">
+            <label for="Inputemail" class="form-label" >Email address</label>
+            <input name="email" type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone" class="form-label" >Contact Number</label>
+            <input name="contactno"type="text" class="form-control" id="PhoneNumber" >
+        </div>
+        <div class="form-group">
+            <label for="location" class="form-label" >Home address</label>
+            <input name="homeaddress" type="text" class="form-control" id="HomeAddress">
+        </div>
+        <div class="form-group">
+            <label for="Profession" class="form-label" >Profession</label>
+            <input name ="profession" type="text" class="form-control" id="Profession" >
+        </div>
+        <div class="form-group">
+            <div id="socialhelp" class="form-text">Optional</div>
+            <label for="socialmedia" class="form-label" >Social Media Handle</label>
+            <input name="socialmediahandle" type="text" class="form-control" id="SocialMediaHandle" >
+        </div>
+        <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <input name ="Password1" type="password" class="form-control" id="password1" required>
+            <div id="passhelp" class="form-text">Please enter a password with more than 7 characters</div>
+        </div>
+
+        <div class="form-group">
+            <label for="confirmPassword" class="form-label">Confirm Password</label>
+            <input name ="Password2" type="password" class="form-control" id="password2" required>
+        </div>
+
+        
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+    </form>
+
+{% endblock body %}

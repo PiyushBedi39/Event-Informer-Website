@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+{% block body %}
+
+
+
+    <!-- SECOND-SECTION  (welcome-body) -->
+    <section class="welcome-body">
+        <div class="container-sm text-center welcome">Welcome</div>
+        <div class="container-sm text-center to-pophub">To POPhub</div>
+        <div class="container-sm text-center paragraph">The New Way To Socialize With People Just Like You Want</div>
+        <div class="container-sm text-center"><a href="#learn-more"><button class="learn-btn" type="button">Learn
+                    More</button></a></div>
+    </section>
+
+    <!-- THIRD-SECTION (connect-with-people)-->
+    <section class="connect-with-people">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="container-sm  content-heading">Connect With People In Real Life</div><br>
+                    <div class="container-sm  content-para">As we all know that a crowded room will always be
+                        empty
+                        for you as long as you
+                        don't fit in.</div><br>
+                    <div class="container-sm  content-para">The weekends are often all you have to yourself,
+                        don't
+                        waste them by being in
+                        rooms filled with
+                        people you don't like.</div><br>
+                    <div class="container-sm  content-para">Everyone here is a friend of a friend. Welcome to the
+                        pophub..</div>
+                </div>
+                <div class="col first-img"><img src="/static/img/images2.png" class="resp" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOURTH-SECTION (invite-and-form)-->
+    <section class="invite-and-form">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm form-box" id="signup form">
+                    <form class="row" action="">
+                        <input class="col" type="text" placeholder="*First Name">
+                        <input class="col" type="text" placeholder="*Last Name">
+                    </form>
+                    <br>
+                    <form class="row" action="">
+                        <input class="col" type="text" placeholder="*Contact No.">
+                        <input class="col" type="email" placeholder="*Email">
+                    </form>
+                    <br>
+                    <form class="row" action="">
+                        <input class="col" type="text" placeholder="*Location" required>
+                        <input class="col" type="text" placeholder="Profession">
+                    </form>
+                    <br>
+                    <form class="row" action="">
+                        <input class="col" type="text" placeholder="*Social Media Handle">
+                    </form>
+                    <br>
+                    <div class="container text-center">
+                        <a href="#"><button class="signIn-btn" type="button">Sign in</button></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="container-sm text-center form-content-heading">How Does It Work?</div><br>
+                    <div class="container-sm  form-content-para">sign up by filling up your details or if you are
+                        existing
+                        user please login</div><br>
+                    <div class="container-sm  "><a href="/login"><button class="logIn-btn" type="button">Log
+                                in</button></a></div>
+                    <div class="container-sm  form-content-para">After signing in, our Team will verify your account,
+                        which will take a
+                        maximum 24hr.</div><br>
+                    <div class="container-sm  form-content-para">After verification done, go to Events and see
+                        upcoming Events details.</div><br>
+                    <div class="container-sm  form-content-para">Below the event details there is a Join Button
+                        just click that join.</div><br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FIFTH-SECTION (who-we-are)-->
+    <section class="who-we-are" id="learn-more">
+        <div class="container-fluid who-we-are-box">
+            <div class="row">
+                <div class="col">
+                    <div class="container-sm text-center who-we-are-content-heading">Who We Are?</div><br>
+                    <div class="container-sm  who-we-are-content-para">The right way of making two or more people
+                        interact
+                        has to go through a
+                        fundamental change. For us, having 200 friends online and none to meet offline is a complete
+                        no-no. </div><br>
+                    <div class="container-sm"><img src="/static/img/image.png"
+                            class="who-we-are-image" alt="">
+                    </div><br>
+                    <div class="container-sm  who-we-are-content-para">We envision a carefully crafted community that is
+                        cohesive unlike most online
+                        communities. We want to encourage our users to go out and meet in large social gatherings,
+                        interact with
+                        as many people as possible.</div><br>
+                    <div class="container-sm  who-we-are-content-para">We will ensure that the events, the people and
+                        the
+                        overall vibe is to your
+                        liking!</div>
+                </div>
+                <div class="col">
+                    <div class="container-sm"><img src="/static/img/pexels-thiago-miranda-1230396 (1).jpg"
+                            class="who-we-are-image" alt="">
+                    </div><br>
+                    <div class="container-sm  who-we-are-para">Our goal is very straightforward, we want to
+                        revolutionize the way people
+                        interact using social platforms. By creating a networking platform to that helps users interact
+                        in real
+                        life.</div><br>
+                    <div class="container-sm  who-we-are-para">We're done with algorithm addled platforms that play with
+                        their users'
+                        psyche to
+                        get every last penny of ad revenue possible.</div><br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    
+{% endblock body %}
